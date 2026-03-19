@@ -1,11 +1,10 @@
-# 📄 AI PDF Insight Extractor
-
-A smart, Streamlit-based web application that uses Google's Gemini AI to automatically read and extract key insights from PDF documents. 
+# 📄 AI BOOK Analyser
+A smart, Streamlit-based web application that uses Google's Gemini AI to automatically read and extract key insights from Books. 
 
 Whether it's a hotel brochure, an invoice, or a product manual, this tool instantly pulls out the most important details (like room service times, pricing, or instructions) and allows you to ask specific questions about the document.
 
 ## 🌟 Features
-- **Fast PDF Parsing:** Extracts text directly from multi-page PDFs using `PyMuPDF`.
+- **Fast Book Parsing:** Extracts text directly from multi-page books using `PyMuPDF`.
 - **Dynamic AI Analysis:** Automatically detects and utilizes the best available Gemini model via the Google Generative AI API.
 - **Custom Queries:** Ask specific questions about the uploaded document.
 - **Save Insights:** Download the AI's analysis locally as a text file.
@@ -20,7 +19,7 @@ Whether it's a hotel brochure, an invoice, or a product manual, this tool instan
 1. Clone this repository to your local machine:
    ```bash
    git clone <your-github-repo-url>
-   cd pdf_analyzer
+   cdbook_analyzer
    ```
 2. Create and activate a virtual environment:
    ```bash
@@ -42,5 +41,5 @@ Whether it's a hotel brochure, an invoice, or a product manual, this tool instan
 
 ## 🛠️ Built With...
 - [Streamlit](https://streamlit.io/) - For the interactive Web UI
-- [PyMuPDF](https://pymupdf.readthedocs.io/) - For lightning-fast PDF text extraction
+- [PyMuPDF](https://pymupdf.readthedocs.io/) - For lightning-fastbook text extraction
 - [Google Generative AI](https://cloud.google.com/vertex-ai/docs/generative-ai/learn/models) - For the brain powering the document analysis
